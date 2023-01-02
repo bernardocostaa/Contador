@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  letter-spacing: 0.25rem;
+  text-transform: capitalize;
+  color: #102a42;
+}
+body{
+  background: #F1F5F8;
+}
+h1{
+  font-family:  "Roboto", sans-serif;
+  font-size: 3rem;
+}
+span{
+  font-size: 6rem;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+}
+
+.btn{
+  font-family: "Roboto", sans-serif;
+  background: transparent;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 6px 12px;
+  margin: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: .4s;
+  display: inline-block;
+  text-transform: uppercase;
+  border: 2px solid #222;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+}
+.btn:hover{
+  background: #222;
+  color: white;
+}
+.conteiner{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
